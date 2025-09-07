@@ -1,0 +1,5 @@
+{
+  "name": "Nano Banana Imager",
+  "description": "A basic Photoshop clone that utilizes the Gemini 2.5 Flash image model (Nano Banana) for powerful, prompt-based image editing.",
+  "requestFramePermissions": []
+}
