@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nano Banana Imager</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes gentle-pulse {
+        0%, 100% {
+          transform: scale(1) rotate(-5deg);
+          opacity: 0.9;
+        }
+        50% {
+          transform: scale(1.1) rotate(5deg);
+          opacity: 1;
+        }
+      }
+      .animate-gentle-pulse {
+        animation: gentle-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+    </style>
   <script type="importmap">
 {
   "imports": {
